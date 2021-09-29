@@ -8,5 +8,9 @@
 }
 
 .btn-primary{
-    color:blue;
+    background-color:blue;
+}
+
+.btn-primary:hover{
+    background-color:red;
 }
