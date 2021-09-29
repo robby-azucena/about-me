@@ -9,9 +9,11 @@
 }
 
 .btn-primary{
+    color:white;
     background-color:blue;
 }
 
 .btn-primary:hover{
+    color:white;
     background-color:red;
 }
