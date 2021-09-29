@@ -13,19 +13,26 @@
 </head>
 <body>
     <section id="index-home">
+        <div id="banner-behance"></div>
+        <div id="banner-artstation"></div>
         <div class="container display-center">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     
                 </div>
                 <div class="col-12 col-lg-6 home-text">
-                    <h1 class="mb-30">Hello! I'm<br><b>Robby Azucena</b></h1>
-                    <p>Here are my portfolio links</p>
+                    <h1 class="mb-10"><b>Robby Azucena</b></h1>
+                    <p>UI/UX Designer | 3D modeler</p>
                     <div class="quick-links mt-10">
-                        <div>
-                            <a href="https://www.behance.net/robbyazucena">
+                        <div class="mt-30">
+                            <a href="https://www.behance.net/robbyazucena" onmouseover="behanceIMG()" onmouseout="defaultIMG_behance()">
                                 <button class="btn icon-link">
                                     <img alt="behance" src="/img/behance-fill.svg" height="50px" width="auto">
+                                </button>
+                            </a>
+                            <a href="https://www.artstation.com/robby_azucena" onmouseover="artstationIMG()" onmouseout="defaultIMG_artstation()">
+                                <button class="btn icon-link">
+                                    <img alt="artstation" src="/img/ArtStation-white.svg" height="50px" width="auto">
                                 </button>
                             </a>
                         </div>
@@ -37,4 +44,7 @@
     </section>
     
 </body>
+
+
+<script src="/js/main.js"></script>
 </html>

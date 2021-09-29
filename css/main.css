@@ -1,6 +1,7 @@
 #index-home{
-    background-image: url(https://images.hdqwalls.com/wallpapers/minimal-abstract-background-4k-f2.jpg);
+    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2076&q=80);
     position: relative;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -12,8 +13,8 @@
 #index-home .home-text{
     border-radius: 20px;
     padding: 30px;
-    text-align: left;
-    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: rgba(100, 100, 100, 0.5);
     backdrop-filter: blur(20px);
 }
 
@@ -51,4 +52,33 @@
     #index-home h1 b{
         font-size: 2rem;
      }
+}
+
+
+#banner-behance{
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height:100vh;
+    background-image: url(/img/bg-behance.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: all .3s;
+}
+
+#banner-artstation{
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height:100vh;
+    background-image: url(/img/bg-artstation.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#banner-behance.active, #banner-artstation.active{
+    opacity: 1;
 }
