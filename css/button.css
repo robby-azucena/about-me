@@ -17,3 +17,16 @@
     color:white;
     background-color:red;
 }
+
+.icon-link {
+    text-align: center;
+    transition: all .3s;
+    padding: 0px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.icon-link:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0px 40px;
+}
