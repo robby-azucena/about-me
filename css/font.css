@@ -16,3 +16,8 @@ p{
     font-family: 'Lato', sans-serif;
     margin:0;
 }
+
+h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}

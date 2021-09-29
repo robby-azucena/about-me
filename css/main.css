@@ -3,3 +3,25 @@ body{
     padding:0;
     overflow-x: hidden;
 }
+
+#index-home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#index-home h1 b{
+    font-size: 5rem;
+}
+
+#index-home p{
+    font-size: 1.3rem;
+}
+
+#index-home .quick-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
