@@ -19,6 +19,12 @@ function defaultIMG_behance(){
 }
 
 
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L4PB0LST36');
+
 
 
 var elem = document.getElementById("myBar");

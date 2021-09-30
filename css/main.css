@@ -106,3 +106,21 @@
         background-color: rgba(0, 0, 0, 0.7);
     }
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width:100vw;
+    padding:5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 109, 24);
+    font-size: .8rem;
+}
+
+footer div{
+    width:100vw;
+}
