@@ -61,12 +61,12 @@
 #banner-behance{
     z-index: -2;
     position: absolute;
-    top:0;
+    object-fit: cover;
     width: 100vw;
-    height:100vh;
-    background-image: url(/img/bg-behance.jpg);
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     opacity: 0;
     transition: all .3s;
 }
