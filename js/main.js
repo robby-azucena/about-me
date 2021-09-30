@@ -20,4 +20,8 @@ function defaultIMG_behance(){
 
 window.onload = function(){
     document.getElementById("loading").style.opacity='0';
+    setTimeout(function(){ 
+        document.getElementById("loading").style.zIndex='-10000';
+    }, 500);
+    
 }
