@@ -18,10 +18,6 @@ function defaultIMG_behance(){
     element.classList.remove("active");
 }
 
-
-
-
-
 var elem = document.getElementById("myBar");
 var percent = document.getElementById("percent");
 var width = 10;
