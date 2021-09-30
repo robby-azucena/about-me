@@ -3,7 +3,7 @@
 
 #index-home{
     z-index: 1;
-    background-image: url(/img/bg-behance.jpg);
+    background-image: url(./img/bg-behance.jpg);
     position: relative;
     background-size: cover;
     height: 100vh;
@@ -78,7 +78,7 @@
     top:0;
     width: 100vw;
     height:100vh;
-    background-image: url(/img/bg-artstation.jpg);
+    background-image: url(./img/bg-artstation.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0;
