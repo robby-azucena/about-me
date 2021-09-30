@@ -5,15 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/utilities.css">
+    <link rel="stylesheet" href="/css/main.css">
 
+    <meta name="keywords" content="Robby Azucena, UI/UX designer, UI designer, UX designer, 3D modeler">
+    <meta name="description" content="UI/UX designer | 3D modeler">
     <title>Robby Azucena</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6">Test</div>
-            <div class="col-12 col-lg-6">Test2</div>
+    <div id="loading">
+        <div class="details">
+            <div id="myProgress">
+                <div id="myBar"></div>
+            </div>
+            <div id="percent">10%</div>
+            <p class="mt-10">Loading business card<br>This is a beta test</p>
         </div>
     </div>
+    <section id="index-home">
+        <video id="banner-behance" autoplay muted loop>
+            <source src="/img/bg-uiux.mp4" type="video/mp4">
+        </video>
+        <div id="banner-artstation"></div>
+        <div class="overlay-dark"></div>
+        <div class="container display-center">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    
+                </div>
+                <div class="col-12 col-lg-6 home-text">
+                    <h1 class="mb-10"><b>Robby Azucena</b></h1>
+                    <p>UI/UX Designer | 3D modeler</p>
+                    <div class="quick-links mt-10">
+                        <div class="mt-30">
+                            <a href="https://www.behance.net/robbyazucena" onmouseover="behanceIMG()" onmouseout="defaultIMG_behance()">
+                                <button class="btn icon-link">
+                                    <img alt="behance" src="/img/behance-fill.svg" height="50px" width="auto">
+                                </button>
+                            </a>
+                            <a href="https://www.artstation.com/robby_azucena" onmouseover="artstationIMG()" onmouseout="defaultIMG_artstation()">
+                                <button class="btn icon-link">
+                                    <img alt="artstation" src="/img/ArtStation-white.svg" height="50px" width="auto">
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
+
+
+<script src="/js/main.js"></script>
 </html>

@@ -1,0 +1,108 @@
+
+
+
+#index-home{
+    z-index: 1;
+    background-image: url(/img/bg-behance.jpg);
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 30px;
+}
+
+#index-home .home-text{
+    z-index: 2;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+#index-home h1, #index-home p{
+    color:white
+}
+
+#index-home h1 b{
+    font-size: 4.7rem;
+}
+
+#index-home p{
+    font-size: 1.3rem;
+}
+
+#index-home .quick-links{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:991px){
+    #index-home .home-text{
+        text-align: center;
+    } 
+}
+
+@media(max-width:575px){
+    #index-home h1{
+       font-size: 1.5rem;
+    }
+
+    #index-home h1 b{
+        font-size: 2rem;
+     }
+}
+
+
+
+#banner-behance{
+    z-index: -2;
+    position: absolute;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .3s;
+}
+
+#banner-artstation{
+    z-index: -2;
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height:100vh;
+    background-image: url(/img/bg-artstation.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#banner-behance.active, #banner-artstation.active{
+    opacity: 1;
+}
+
+.overlay-dark{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, .5), rgba(0, 0, 0, .8));
+    
+}
+
+@media(max-width:991px){
+    .overlay-dark{
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
