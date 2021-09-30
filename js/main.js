@@ -17,3 +17,7 @@ function defaultIMG_behance(){
     var element = document.getElementById("banner-behance");
     element.classList.remove("active");
 }
+
+window.onload = function(){
+    document.getElementById("loading").style.opacity='0';
+}

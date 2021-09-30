@@ -1,6 +1,26 @@
+#loading{
+    z-index: 10000;
+    background-color: black;
+    position: absolute;
+    top:0;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    transition: opacity .5s;
+    opacity: 1;
+}
+
+#loading.hide{
+    opacity:0;
+}
+
 #index-home{
     z-index: 1;
-    background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2076&q=80);
+    background-image: url(/img/bg-behance.jpg);
     position: relative;
     background-size: cover;
     height: 100vh;
@@ -16,9 +36,6 @@
     border-radius: 20px;
     padding: 30px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
 }
 
 #index-home h1, #index-home p{
@@ -58,6 +75,7 @@
 }
 
 
+
 #banner-behance{
     z-index: -2;
     position: absolute;
@@ -86,4 +104,22 @@
 
 #banner-behance.active, #banner-artstation.active{
     opacity: 1;
+}
+
+.overlay-dark{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, .5), rgba(0, 0, 0, .8));
+    
+}
+
+@media(max-width:991px){
+    .overlay-dark{
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
 }
